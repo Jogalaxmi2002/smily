@@ -1,23 +1,22 @@
 /* Home.css */
 
+/* Container for the home page */
 .home-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
 }
 
+/* Header styling */
 .header {
     text-align: center;
     margin-bottom: 40px;
+    color: #333;
+    background-color: #8697C4;/* Dark text color */
 }
 
-.about-section,
-.services-section,
-.appointment-section,
-.testimonials-section {
-    margin-bottom: 40px;
-}
-
+/* Common styling for section headers */
 .about-section h2,
 .services-section h2,
 .appointment-section h2,
@@ -27,33 +26,130 @@
     margin-bottom: 10px;
 }
 
+/* Styling for the 'About' section */
+.about-section {
+    margin-bottom: 40px;
+}
+
+/* Styling for the 'Services' section */
+.services-section {
+    margin-bottom: 40px;
+}
+
 .services-section ul {
     list-style-type: disc;
     margin-left: 20px;
+    color: #333;
+}
+
+/* Styling for the 'Appointment' section */
+.appointment-section {
+    margin-bottom: 40px;
 }
 
 .book-appointment-btn {
-    background-color: #ff7f50;
+    background-color: #7091e6;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 .book-appointment-btn:hover {
-    background-color: #ffa07a;
+    background-color: #3D52A0;
+}
+
+/* Styling for the 'Testimonials' section */
+.testimonials-section {
+    margin-bottom: 40px;
 }
 
 .testimonial {
-    background-color: #f0f0f0;
+    background-color: #e6e6e6; /* Light gray background for testimonials */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
+    color: #333;
+    background-color: #ADBBDA;
 }
 
+.testimonial p {
+    margin-bottom: 5px;
+}
+
+.testimonial-author {
+    font-style: italic;
+    color: #555; /* Slightly darker gray for author name */
+}
+
+/* Styling for the footer */
 .footer {
     text-align: center;
     margin-top: 40px;
+    color: #333;
+}
+
+.flex-item {
+    background-color: #7091E6; /* Light blue color */
+    width: 200px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    border: 1px solid #7091E6; /* Matching border color */
+    border-radius: 10px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding and border don't affect dimensions */
+    display: flex; /* Use flex layout for potential alignment adjustments */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: #fff; /* White text color */
+    font-size: 16px; /* Standard font size */
+    font-family: Arial, sans-serif; /* Standard font family */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition effects */
+}
+
+.flex-item:hover {
+    background-color: #5071C6; /* Darker shade of blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.flex-item-2{
+    background-color: #7091E6; /* Light blue color */
+    width: 200px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    border: 1px solid #7091E6; /* Matching border color */
+    border-radius: 10px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding and border don't affect dimensions */
+    display: flex; /* Use flex layout for potential alignment adjustments */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    color: #fff; /* White text color */
+    font-size: 16px; /* Standard font size */
+    font-family: Arial, sans-serif; /* Standard font family */
+    transition: transform 0.3s, background-color 0.3s; /* Smooth transition effects */
+
+
+}
+
+.flex-item-2:hover {
+    background-color: #5071C6; /* Darker shade of blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.flex-container-2{
+    padding-left: 250px;
+    padding-bottom:30px ;
+    padding-top: 40px;
+}
+
+.flex-container{
+
+    padding-bottom:30px ;
+    padding-top: 40px;
+    gap: 20px;
+    display: flex; /* Use flex layout */
+    flex-direction: row; /* Arrange children in a horizontal line */
+    align-items: center; /* Center children vertically */
+    justify-content: flex-start;
+
 }

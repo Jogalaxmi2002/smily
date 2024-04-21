@@ -9,6 +9,7 @@ import SignUp from "./components/SignUp";
 import PreviousAppointments from "./components/PreviousAppointments"; // Import the PreviousAppointments component
 import "./styles.css";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 
 
 function App() {
@@ -47,11 +48,14 @@ function App() {
             <Route path="/appointment-form" element={<AppointmentForm />} />
             <Route path="/Login" element={<Login />} />
              <Route path="/SignUp" element={<SignUp />} />
+             <Route path="/Home" element={<Home />} />
           </Routes>
         </main>
-        <Footer />
+
       </div>
+      <Footer />
     </div>
+
   );
 }
 

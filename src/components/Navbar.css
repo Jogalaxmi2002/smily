@@ -30,11 +30,11 @@
 }
 
 .navbar-item a {
-    color: #ffa07a; /* Neutral text color */
+    color: black; /* Neutral text color */
     text-decoration: none;
     transition: color 0.3s ease; /* Fade-in animation */
 }
 
 .navbar-item a:hover {
-    color: red; /* Neutral hover color */
+    color: #3D52A0; /* Neutral hover color */
 }
